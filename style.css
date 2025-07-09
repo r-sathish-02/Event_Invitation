@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f5e9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.invite-card {
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #3498db;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.event-banner {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    height: auto;
+    display: block;
+}
+
+.event-detail {
+    font-size: 1.1em;
+    color: #555;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.event-detail strong {
+    color: #333;
+}
+
+.event-description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.rsvp-info {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+    font-size: 0.95em;
+    color: #777;
+}
+
+.rsvp-info p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rsvp-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rsvp-link:hover {
+    text-decoration: underline;
+}
